@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/8em513bbntgjuja3?svg=true)](https://ci.appveyor.com/project/ivalynx/ajs-homeworks-properties-and-wrappers-for-in)
