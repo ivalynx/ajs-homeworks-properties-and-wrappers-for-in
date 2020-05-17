@@ -24,3 +24,15 @@ test('Должен сортировать объект, сначала долж�
     { key: 'level', value: 2 },
   ]);
 });
+
+test('Должен сортировать объект, сначала должен выводиться defence', () => {
+  const result = orderByProps(object, ['defence']);
+
+  expect(result).toEqual([
+    { key: 'defence', value: 40 },
+    { key: 'attack', value: 80 },
+    { key: 'health', value: 10 },
+    { key: 'level', value: 2 },
+    { key: 'name', value: 'мечник' },
+  ]);
+});
